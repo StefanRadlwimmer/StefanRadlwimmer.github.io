@@ -67,3 +67,4 @@ exclude:
   - LICENSE
   - Gemfile
   - Gemfile.lock
+theme: jekyll-theme-slate
