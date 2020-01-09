@@ -1,0 +1,19 @@
+- name: Overall
+  percentage: 90
+  color: dark
+  
+- name: P/Invoke
+  percentage: 85
+  color: 
+  
+- name: WPF
+  percentage: 80
+  color: 
+  
+- name: .NET Core
+  percentage: 80
+  color: 
+
+- name: Entity Framework
+  percentage: 45
+  color: 

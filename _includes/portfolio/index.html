@@ -1,0 +1,32 @@
+<div class="card-columns m-3 mt-5">
+
+  {% for portfolio in site.portfolio reversed %}
+
+    {% comment %} Determine Project URL {% endcomment %}
+    {% if portfolio.external_url %}
+      {% assign portfolio_url = portfolio.external_url %}
+    {% else %}
+      {% assign portfolio_url = portfolio.url | relative_url %}
+    {% endif %}
+
+    <div class="wow animated fadeIn" data-wow-delay=".15s">
+      <a href="{{ portfolio_url }}" class="project card text-dark">
+        {% if portfolio.image %}
+          <img class="card-img-top" src="{{ portfolio.image }}" alt="Card image cap">
+        {% endif %}
+        <div class="card-body">
+          <h3 class="card-title">{{ portfolio.name }}</h3>
+          <p class="card-text">{{ portfolio.description }}</p>
+          <p class="card-text"><i>Release Date: {{ portfolio.release-date }}</i></p>
+          <p class="card-text">
+            {% for tool in portfolio.platforms %}
+              <span class="badge badge-pill text-primary border border-primary">{{tool}}</span>
+            {% endfor %}
+          </p>
+        </div>
+      </a>
+    </div>
+    
+  {% endfor %}
+
+</div>

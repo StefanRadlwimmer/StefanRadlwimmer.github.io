@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="col-lg-10 mx-auto mt-5 article">
+  
+  <h1 style="display:inline;">
+    <b>{{page.name}}</b>
+
+    {% if page.website %}
+    <p class="text-right" style="float: right;"> 
+    {% include elements/button.html link=page.website text="Website" %}
+    </p>
+    {% endif %}
+  </h1>
+  
+  <br><br>
+
+  {% if page.trailer %}
+  <div class="video">
+      <iframe src="{{ page.trailer }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+  {% endif %}
+  
+  {{ content }}
+</div>

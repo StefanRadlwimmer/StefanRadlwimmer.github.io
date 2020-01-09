@@ -7,14 +7,30 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Hi, I am Stefan Radlwimmer, an Austrian Game Developer working at Cyberith GmbH.<br/>
+I currently work as Hardware-, Firmware-, Software- & Game-Developer on the <a href='https://www.cyberith.com/virtualizer-elite/'>Virtualizer Elite 2</a>, 
+responsible for everything from hardware sensors to game engine integration. 
+
+## **Skills**
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
+{% include about/skills.html title="C++" source=site.data.cpp-skills %}
+{% include about/skills.html title="C#" source=site.data.cs-skills %}
 </div>
 
 <div class="row">
-{% include about/timeline.html %}
+{% include about/skills.html title="Python" source=site.data.python-skills %}
+{% include about/skills.html title="Game Engines" source=site.data.engine-skills %}
+</div>
+
+## **Work experience**
+
+<div class="row">
+{% include about/timeline-work.html %}
+</div>
+
+## **Education**
+
+<div class="row">
+{% include about/timeline-education.html %}
 </div>

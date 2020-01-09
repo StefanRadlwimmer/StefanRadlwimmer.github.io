@@ -1,3 +1,5 @@
+
+
 .timeline-body {
 	position: relative;
 	background-color: $light;
@@ -8,11 +10,12 @@
         // Left Border
 		content: '';
 		width: 4px;
-		height: 100%;
+		height: auto;
 		background-color: $primary;
 		position: absolute;
 		left: -4px;
-		top: 0;
+		top: 45px;
+		bottom: 0px;
     }
     
 	.timeline-item {
@@ -28,20 +31,35 @@
 			background-color: $light;
 			position: absolute;
 			left: -12px;
-			top: 8px;
+			top: 0px;
 			z-index: 10;
         }
-        
-		.content {
-			margin: 40px; 
-			padding-bottom: 20px;
-            border-bottom: 1px dashed $dark;
+		
+		.content, .content-last {
+			margin: 30px; 
+			// margin-top: 30px; 
+			// margin-bottom: 30px; 
 
-            .date {
-                margin-top: -5px;
-                margin-bottom: 15px;
-                color: #6c757d;
-            }
+			.head {
+				font-weight: bold;
+				padding-top: 15px;
+			}
+
+			.text {
+				text-align: justify;
+				padding-top: 15px;
+				margin-bottom: 0px;
+			}
+			
+			.date {
+				font-weight: lighter;
+				color: #6c757d;
+			}
+		} 
+
+		.content {
+			border-bottom: 1px dashed $dark;
+			padding-bottom: 25px;
 		}
 	}
 }

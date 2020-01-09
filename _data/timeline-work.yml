@@ -1,0 +1,57 @@
+- title: Software Developer
+  company: Cyberith GmbH
+  location: Vienna, Austria
+  from: July 2018
+  to: present
+  description: >
+    <b>Hardware, Firmware, Software & Game Developer responsible for the Cyberith Virtualizer.</b><br/>
+    <br/>
+    <ul><li>Firmware development in C++
+            <ul><li>Complete overhaul of the existing Virtualizer firmware.</li>
+            <li>Development of software components for the Virtualizer Elite 2.</li>
+            <li>Optimization of the build processes for different hardware configurations.</li>
+        </ul></li>
+        <li>API development in C++, C# und Python
+            <ul><li>Overhaul and new development of APIs for integrating the Virtualizer in applications.</li>
+        </ul></li>
+        <li>Game Engine Plugin development
+            <ul><li>Overhaul and new development of Plugins for Unity Engine and Unreal Engine 4.</li>
+        </ul></li>
+        <li>Electronics development
+            <ul><li>Concept, Design and Prototyping of hardware components for the Virtualizer Elite 2.</li>
+        </ul></li>
+    </ul>
+
+- title: Software Development Intern
+  company: Dr. techn. Josef Zelisko Gmbh
+  location: Mödling, Austria
+  from: April 2018
+  to: June 2018
+  description: > 
+    <b>Voluntary internship (20h/week) during my master studies.</b><br/>
+    <br/>
+    <ul><li>Refactoring of legacy C++ code</li>
+        <li>Setup of an base framework in .Net Standard and .Net Core 2.1 for Raspberry Pi
+        <ul><li>Build Chain: Creating PowerShell scripts for build, package, deployment and debugging</li>
+            <li>Hardware: GPIO, serial com ports, I2C</li>
+            <li>Utilities: EventHandler, ThreadPool, OS specific file systems</li>
+            <li>Unit & Integration tests</li>
+        </ul></li>
+        <li>Development of 2 applications based on the .Net Core Framework
+        <ul><li>TTS system with serial bus</li>
+            <li>Auto updater via USB</li>
+        </ul></li>
+    </ul>
+
+- title: Software Development Intern
+  company: TechTalk
+  location: Vienna, Austria
+  from: February 2016
+  to: August 2016
+  description: > 
+    <b>Internship as part of my bachelors degree course:</b><br/>
+    <br/>
+    <ul><li>Working on EU wide calls for bids for e-government software.</li>
+        <li>Preparing bidding prototypes of the e-government software Acta Nova.</li>
+        <li>Development of new modules for Acta Nova in C#.</li>
+    </ul>

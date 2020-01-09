@@ -1,52 +1,35 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Stefan Radlwimmer
 description         : >-                               # >- means to ignore newlines until "url:"
-                      "I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production."
+  Hi, I am <b>Stefan Radlwimmer</b>, an Austrian Game Developer employed at Cyberith GmbH.<br/> 
+  I currently work as Hardware-, Firmware-, Software- & Game-Developer on the <a href='https://www.cyberith.com/virtualizer-elite/'>Virtualizer Elite 2</a>, responsible for everything from hardware sensors to game engine integration. 
 
-url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
-baseurl             : "/portfolYOU"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
-repository          : YoussefRaafatNasry/portfolYOU    # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
-#remote_theme       : YoussefRaafatNasry/portfolYOU    # uncomment this if you are using it as a remote theme
+url                 : "https://stefan-radlwimmer.dev"  # base hostname & protocol for your site (e.g. http://example.com)
+baseurl             : "/"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
 
 ### Author Info ###
 author:
-  name              : John Doe
-  image             : https://bit.ly/2KCvgVJ
-  behance           : your_username
-# dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  name              : Stefan Radlwimmer
+  image             : assets/author.image.jpg
+  email             : contact@stefan-radlwimmer.dev
+# facebook          : your_username
+  github            : StefanRadlwimmer
 # gitlab            : your_username
 # instagram         : your_username
-  linkedin          : your_username
-  medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
+  linkedin          : stefan-radlwimmer
 # stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
-# vimeo             : your_username
+# twitter           : your_username
 # youtube           : your_channel_name
-
-
-### Pagination ###
-paginate: 6
-paginate_path: "/articles/page-:num/"
-
-
-### Posts Permalink ###
-permalink: articles/:title
-
 
 ### Collections ###
 collections:
   projects:
-    output: true
+    output: false
     permalink: /projects/:name
+  portfolio:
+    output: true
+    permalink: /portfolio/:name
 
 
 ### Defaults for collections ###
@@ -56,6 +39,14 @@ defaults:
       type: "projects"
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: "portfolio"
+
+# Posts default Permalink
+permalink: articles/:title
 
 plugins:
   - jemoji
@@ -67,4 +58,5 @@ exclude:
   - LICENSE
   - Gemfile
   - Gemfile.lock
+  
 theme: jekyll-theme-slate

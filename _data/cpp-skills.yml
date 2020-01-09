@@ -1,0 +1,23 @@
+- name: Overall
+  percentage: 85
+  color: dark
+  
+- name: std
+  percentage: 85
+  color: 
+  
+- name: VisualGDB
+  percentage: 85
+  color: 
+
+- name: OpenMP
+  percentage: 90
+  color: 
+
+- name: OpenGL
+  percentage: 75
+  color: 
+
+- name: OpenCL
+  percentage: 50
+  color: 

@@ -1,0 +1,41 @@
+- degree: Master of Science in Engineering
+  study: Game Engineering and Simulation Technology
+  school: University of Applied Sciences Technikum Wien
+  location: Vienna, Austria
+  from: September 2016
+  to: October 2019
+  description: > 
+    <b>Studying Game Engineering and Simulation with a focus on computer graphics and artificial intelligence for video games.</b><br/>
+    Master-Thesis: OpenLocomotion<br/>
+    The thesis addresses the possibilities and demonstrates the development of a new industrial standard for VR locomotion devices.
+
+- degree: Bachelor of Science in Engineering
+  study: Computer Sciences
+  school: University of Applied Sciences Technikum Wien
+  location: Vienna, Austria
+  from: September 2014
+  to: June 2016
+  description: > 
+    <b>Studying software engineering with a focus on business applications in C# and specialisation in game engineering in C++.</b><br/>
+    Direct Entry to 3rd Semester.<br/>
+    Area of specialisation: Game Engineering.<br/>
+    Bachelor-Thesis: "Automated Testing in Behaviour Driven Development with SpecFlow" & "Point Cloud Rendering".
+
+- degree: Community Service
+  study: Paramedic
+  school: Red Cross Mödling
+  location: Mödling, Austria
+  from: January 2014
+  to: September 2014
+  description: > 
+    <b>Community Service at the Red Cross Mödling.</b><br/>
+  
+- degree: Technical College Graduation
+  study: Engergy Engineering
+  school: HTL Hollabrunn
+  location: Mödling, Austria
+  from: September 2005
+  to: June 2010
+  description: > 
+    <b>Technical Schooling focusing electronics and computer engineering in C#.</b><br/>
+    Area of specialisation: computer engineering
