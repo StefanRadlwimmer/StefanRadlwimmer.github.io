@@ -5,7 +5,7 @@ description: "The Cyberith Virtualizer ELITE 2 uses a powered Motion Platform to
 website: https://www.cyberith.com/virtualizer-elite
 trailer: https://www.youtube.com/embed/q_rv-213IjI
 release-date: "February 2019"
-platforms: [Embedded,FreeRTOS,Virtual Reality,Hardware]
+platforms: [Embedded,Virtual Reality,Hardware]
 ---
 
 ## About
@@ -17,7 +17,9 @@ The Simulator actively supports the gait of all users, independently of their ph
 
 ## Work
 
-For the extended hardware and firmware requirements of the Virtualizer 2's motion platform it was necessary to fully overhaul the aging firmware and design new electronic hardware components. In this process I was responsible to design electric installation, electronic components, firmware, API, game engine plugins and utility software (Control Panel and Firmware Updater).
+For the extended hardware and firmware requirements of the Virtualizer 2's motion platform it was necessary to fully overhaul the aging firmware and design new electronic hardware components.
+
+In this process I was responsible to design electric installation, electronic components, firmware, API, game engine plugins and utility software (Control Panel and Firmware Updater).
 
 - Electronics development
   - Concept, Design and Prototyping of hardware components for the Virtualizer Elite 2.

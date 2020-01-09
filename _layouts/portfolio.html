@@ -14,12 +14,14 @@ layout: default
     {% endif %}
   </h1>
   
-  <br><br>
+  <br/><br/>
 
   {% if page.trailer %}
   <div class="video">
-      <iframe src="{{ page.trailer }}" frameborder="0" allowfullscreen></iframe>
-    </div>
+    <iframe src="{{ page.trailer }}" frameborder="0" allowfullscreen></iframe>
+  </div>
+  {% elsif page.image %}
+    <img class="card-img-top" src="{{ page.image }}" alt="{{page.name}} image">
   {% endif %}
   
   {{ content }}

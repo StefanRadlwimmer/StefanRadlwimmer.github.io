@@ -12,7 +12,7 @@
     <div class="wow animated fadeIn" data-wow-delay=".15s">
       <a href="{{ portfolio_url }}" class="project card text-dark">
         {% if portfolio.image %}
-          <img class="card-img-top" src="{{ portfolio.image }}" alt="Card image cap">
+          <img class="card-img-top" src="{{ portfolio.image }}" alt="{{page.name}} image">
         {% endif %}
         <div class="card-body">
           <h3 class="card-title">{{ portfolio.name }}</h3>
