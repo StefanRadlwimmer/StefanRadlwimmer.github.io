@@ -35,8 +35,8 @@ Following list describes the main responsibilities of each team member but does 
 - Sound Designers: Christoph Kremsmayr and Jan Schneider
 
 ## Used Software and Technology
-- Game engine: Unreal Engine 4.18
-- Programming language: C++
-- Project management tool: Hack'n'Plan
-- Source control: AWS with Perforce
-- Other tools: Resharper
+- **Game engine:** Unreal Engine 4.18
+- **Programming language:** C++
+- **Project management tool:** Hack'n'Plan
+- **Source control:** AWS with Perforce
+- **Other tools:** Resharper
