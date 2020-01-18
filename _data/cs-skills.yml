@@ -13,7 +13,3 @@
 - name: .NET Core
   percentage: 80
   color: 
-
-- name: Entity Framework
-  percentage: 45
-  color: 
