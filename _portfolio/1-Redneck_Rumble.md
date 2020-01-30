@@ -5,7 +5,7 @@ description: "A 3D local multiplayer action-arcade racer game for PC, in which t
 website: https://bernhardrieder.itch.io/redneck-rumble
 trailer: https://www.youtube.com/embed/h9i7N7TOmBU
 release-date: "January 2018"
-platforms: [PC] 
+platforms: [PC,Video Game]
 ---
 
 ## About
