@@ -1,8 +1,27 @@
+- title: Backend Developer
+  company: Grassfish Marketing Technologies
+  location: Vienna, Austria
+  from: March 2020
+  to: present
+  description: >
+    <b>Backend- and Middleware-Developer for DS Manager Pro and Grassfish Vending.</b><br/>
+    <br/>
+    <ul><li>Development and maintenance in the backend in C#
+            <ul><li>Upgrade of batabase components.</li>
+            <li>Development of web services (REST & SignalR).</li>
+            <li>Development of data importers.</li>
+        </ul></li>
+        <li>Development and maintenance in the middle ware in C#
+            <ul><li>ODevelopment of embedded Plugins.</li>
+            <li>Low level integration of hardware in .Net Core.</li>
+        </ul></li>
+    </ul>
+    
 - title: Software Developer
   company: Cyberith GmbH
   location: Vienna, Austria
   from: July 2018
-  to: present
+  to: February 2020
   description: >
     <b>Hardware, Firmware, Software & Game Developer responsible for the Cyberith Virtualizer.</b><br/>
     <br/>

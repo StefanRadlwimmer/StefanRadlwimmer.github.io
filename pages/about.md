@@ -7,9 +7,9 @@ weight: 3
 
 <h1>About Me</h1>
 
-Hi, I am Stefan Radlwimmer, an Austrian Game Developer working at Cyberith GmbH.<br/>
-I currently work as Hardware-, Firmware-, Software- & Game-Developer on the <a href='https://www.cyberith.com/virtualizer-elite/'>Virtualizer Elite 2</a>, 
-responsible for everything from hardware sensors to game engine integration. 
+Hi, I am Stefan Radlwimmer, an Austrian Game Engineering Enthusiast working at <a href='https://www.grassfish.com/'>Grassfish Marketing Technologies</a>.<br/><br/>
+I currently work as Backend- and Middleware-Developer responsible for plugin development for the <a href='https://www.grassfish.com/digital-signage-cms/'>Digital Signage CMS</a> and 
+hardware integration for our <a href='https://www.grassfish.com/connected-devices/'>Digital Signage Players</a>.
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#skills" style="font-size:20px">Skills</a></li>

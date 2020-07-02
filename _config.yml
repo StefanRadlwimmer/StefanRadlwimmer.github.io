@@ -1,8 +1,9 @@
 ### Site Settings ###
 title               : Stefan Radlwimmer
 description         : >-                               # >- means to ignore newlines until "url:"
-  Hi, I am <b>Stefan Radlwimmer</b>, an Austrian Game Developer employed at Cyberith GmbH.<br/> 
-  I currently work as Hardware-, Firmware-, Software- & Game-Developer on the <a href='https://www.cyberith.com/virtualizer-elite/'>Virtualizer Elite 2</a>, responsible for everything from hardware sensors to game engine integration. 
+  Hi, I am Stefan Radlwimmer, an Austrian Game Engineering Enthusiast working at <a href='https://www.grassfish.com/'>Grassfish Marketing Technologies</a>.<br/><br/>
+  I currently work as Backend- and Middleware-Developer responsible for plugin development for the <a href='https://www.grassfish.com/digital-signage-cms/'>Digital Signage CMS</a> and 
+  hardware integration for our <a href='https://www.grassfish.com/connected-devices/'>Digital Signage Players</a>.
 
 url                 : "https://stefan-radlwimmer.dev"  # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : "/"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
