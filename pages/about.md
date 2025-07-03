@@ -17,15 +17,15 @@ hardware integration for our <a href='https://www.grassfish.com/connected-device
     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#education" style="font-size:20px">Education</a></li>
 </ul>
 <div class="tab-content">
-    <div class="tab-pane active" id="skills">
+    <div class="tab-pane" id="skills">
         <h2>Languages</h2>
         <div class="row">
-            {% include about/skills.html title="Programming" source=skills-programming.yml %}
-            {% include about/skills.html title="Natural" source=skills-language.yml %}
+            {% include about/skills.html title="Programming" source=skills-programming %}
+            {% include about/skills.html title="Natural" source=skills-language %}
         </div>
     </div>
     
-    <div class="tab-pane" id="work">
+    <div class="tab-pane active" id="work">
         <h2>Work experience</h2>
         <div class="row">
             {% include about/timeline-work.html %}

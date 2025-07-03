@@ -1,6 +1,6 @@
 ---
 name: "Vuforia: Expert Capture"
-image: "assets\img\portfolio\Expert_Capture\header.jpg"
+image: "/assets/img/portfolio/Expert_Capture/header.jpg"
 description: "Senior Developer for the Unity based AR Framework powering Vuforia Expert Capture."
 website: https://www.youtube.com/watch?v=y1ShpYoD8fs
 platforms: [Augmented Reality,Unity Engine,Framework]
