@@ -7,9 +7,9 @@ weight: 3
 
 <h1>About Me</h1>
 
-Hi, I am Stefan Radlwimmer, an Austrian Game Engineering Enthusiast working at <a href='https://www.grassfish.com/'>Grassfish Marketing Technologies</a>.<br/><br/>
-I currently work as Backend- and Middleware-Developer responsible for plugin development for the <a href='https://www.grassfish.com/digital-signage-cms/'>Digital Signage CMS</a> and 
-hardware integration for our <a href='https://www.grassfish.com/connected-devices/'>Digital Signage Players</a>.
+Hi, I am Stefan Radlwimmer, an Austrian Game Engineering Enthusiast working at <a href='https://developer.vuforia.com/home/'>Vuforia, a PTC Technology</a>.<br/><br/>
+I currently work as Senior Augmented Developer responsible for <a href='https://www.ptc.com/en/products/vuforia/vuforia-expert-capture'>Vuforia Expert Capture</a> and 
+a proprietary AR Framework based on Unity Engine.
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#skills" style="font-size:20px">Skills</a></li>
@@ -20,8 +20,8 @@ hardware integration for our <a href='https://www.grassfish.com/connected-device
     <div class="tab-pane" id="skills">
         <h2>Languages</h2>
         <div class="row">
-            {% include about/skills.html title="Programming" source=skills-programming %}
-            {% include about/skills.html title="Natural" source=skills-language %}
+            {% include about/skills.html title="Programming" source=site.data.skills-programming %}
+            {% include about/skills.html title="Natural" source=site.data.skills-language %}
         </div>
     </div>
     
