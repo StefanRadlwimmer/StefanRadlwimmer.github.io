@@ -1,0 +1,11 @@
+- name: German
+  percentage: 95
+  color: 
+  
+- name: Engish
+  percentage: 85
+  color: 
+  
+- name: High Valyrian
+  percentage: 10
+  color: 

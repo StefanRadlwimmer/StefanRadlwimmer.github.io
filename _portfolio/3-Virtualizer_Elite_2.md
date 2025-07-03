@@ -4,7 +4,6 @@ image: "/assets/img/portfolio/Virtualizer_Elite_2/header.jpg"
 description: "The Cyberith Virtualizer ELITE 2 uses a powered Motion Platform to actively support walking in VR. The second generation VR Treadmill enables the most convenient movement in Virtual Reality applications."
 website: https://www.cyberith.com/virtualizer-elite
 trailer: https://www.youtube.com/embed/q_rv-213IjI
-release-date: "February 2019"
 platforms: [Embedded,Virtual Reality,Hardware]
 ---
 

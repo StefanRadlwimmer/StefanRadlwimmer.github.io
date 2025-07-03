@@ -1,0 +1,27 @@
+- name: C#
+  percentage: 95
+  color: 
+  
+- name: C/C++
+  percentage: 85
+  color: dark
+  
+- name: TypeScript
+  percentage: 75
+  color: 
+  
+- name: Swift
+  percentage: 70
+  color: 
+  
+- name: Java
+  percentage: 70
+  color: 
+  
+- name: ObjC
+  percentage: 65
+  color: 
+  
+- name: Python
+  percentage: 55
+  color: 

@@ -12,21 +12,16 @@ I currently work as Backend- and Middleware-Developer responsible for plugin dev
 hardware integration for our <a href='https://www.grassfish.com/connected-devices/'>Digital Signage Players</a>.
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#skills" style="font-size:20px">Skills</a></li>
-    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#work" style="font-size:20px">Work</a></li>
+    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#skills" style="font-size:20px">Skills</a></li>
+    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#work" style="font-size:20px">Work</a></li>
     <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#education" style="font-size:20px">Education</a></li>
 </ul>
 <div class="tab-content">
     <div class="tab-pane active" id="skills">
-        <h2>Skills</h2>
+        <h2>Languages</h2>
         <div class="row">
-            {% include about/skills.html title="C++" source=site.data.cpp-skills %}
-            {% include about/skills.html title="C#" source=site.data.cs-skills %}
-        </div>
-        
-        <div class="row">
-            {% include about/skills.html title="Python" source=site.data.python-skills %}
-            {% include about/skills.html title="Game Engines" source=site.data.engine-skills %}
+            {% include about/skills.html title="Programming" source=skills-programming.yml %}
+            {% include about/skills.html title="Natural" source=skills-language.yml %}
         </div>
     </div>
     

@@ -3,7 +3,6 @@ name: "Master Thesis: Open Locomotion"
 image: "/assets/img/portfolio/Open_Locomotion/header.png"
 description: "Master Thesis in cooperation with Cyberith in which I defined and implemented an industrial standard for VR locomotion devices like the Cyberith Virtualizer."
 website: https://aixr.org/insights/open-locomotion-standardization/
-release-date: "In active development"
 platforms: [Virtual Reality,Hardware,Framework]
 ---
 

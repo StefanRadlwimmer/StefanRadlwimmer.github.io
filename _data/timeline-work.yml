@@ -1,8 +1,37 @@
+- title: Senior Augmented Reality Developer
+  company: Vuforia - a PTC Technology
+  location: Vienna, Austria
+  from: April 2021
+  to: present
+  description: >
+    <b>Developer for Unity-based AR Framework for iOS, AVP, Android, Realwear, MagicLeap, HoloLens 2, and WebGL.</b><br/>
+    <br/>
+    <ul><li>Development and extension of the AR framework in Unity Engine
+            <ul><li>Extension of core components for resource handling.</li>
+            <li>Integration of C/C++ APIs into the C# framework.</li>
+            <li>Integration into native applications.</li>
+        </ul></li>
+        <li>Porting the AR framework to WebGL
+            <ul><li>Porting the native build system for Emscripten.</li>
+            <li>Adapting the C# code for WebGL-specific requirements.</li>
+            <li>Development of a Lit-html based web component.</li>
+        </ul></li>
+        <li>Implementation of a WebView for Unity
+            <ul><li>Design of a platform-independent API in C#.</li>
+            <li>Development of the platform-native WebView.</li>
+            <li>Design and development of a messaging system from WebView (JavaScript) to Unity (C#).</li>
+        </ul></li>
+        <li>Design and development of a TypeScript API for the AR framework
+            <ul><li>Development of a TypeScript mapping of the public C# API.</li>
+            <li>Based on the messaging system of the Unity WebView.</li>
+        </ul></li>
+    </ul>
+
 - title: Backend Developer
   company: Grassfish Marketing Technologies
   location: Vienna, Austria
   from: March 2020
-  to: present
+  to: March 2022
   description: >
     <b>Backend- and Middleware-Developer for DS Manager Pro and Grassfish Vending.</b><br/>
     <br/>
@@ -12,7 +41,7 @@
             <li>Development of data importers.</li>
         </ul></li>
         <li>Development and maintenance in the middle ware in C#
-            <ul><li>ODevelopment of embedded Plugins.</li>
+            <ul><li>Development of embedded Plugins.</li>
             <li>Low level integration of hardware in .Net Core.</li>
         </ul></li>
     </ul>

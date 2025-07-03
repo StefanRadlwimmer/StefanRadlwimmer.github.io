@@ -4,7 +4,6 @@ image: "/assets/img/portfolio/Redneck_Rumble/header.png"
 description: "A 3D local multiplayer action-arcade racer game for PC, in which the players need to adapt to regularly changing environmental conditions, score systems, and abilities to win the game."
 website: https://bernhardrieder.itch.io/redneck-rumble
 trailer: https://www.youtube.com/embed/h9i7N7TOmBU
-release-date: "January 2018"
 platforms: [PC,Video Game]
 ---
 

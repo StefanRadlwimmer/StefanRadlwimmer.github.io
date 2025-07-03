@@ -3,7 +3,6 @@ name: "ZIBIS Box"
 image: "/assets/img/portfolio/ZIBIS_Box/header.png"
 description: "The Zelisko IBIS vehicle connector is a newly developed on-board-computer for public transport vehicles using the German <b>I</b>ntegrated on<b>B</b>oard <b>I</b>nformation <b>S</b>ystem (IBIS) bus."
 website: https://www.zelisko.at/de/products/trafficmanagementsystems/products_1/zibis/ticketmachine_2.jsp
-release-date: "November 2018"
 platforms: [Embedded Linux,Raspberry Pi,Hardware]
 ---
 

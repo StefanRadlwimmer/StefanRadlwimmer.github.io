@@ -18,10 +18,9 @@
            <h3 class="card-title">{{ portfolio.name }}</h3>
            <p class="card-text">{{ portfolio.description }}</p>
 		   <p><u> Read more... </u></p>
-           <p class="card-text"><i>Release Date: {{ portfolio.release-date }}</i></p>
            <p class="card-text">
-              {% for tool in portfolio.platforms %}
-                  <span class="badge badge-pill text-primary border border-primary">{{tool}}</span>
+              {% for platform in portfolio.platforms %}
+                  <span class="badge badge-pill text-primary border border-primary">{{platform}}</span>
               {% endfor %}
           </p>
         </div>
